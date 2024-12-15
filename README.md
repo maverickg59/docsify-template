@@ -18,7 +18,7 @@ A simple template to help bootstrap a Docsify project as quickly as possible, co
 ## Project Structure
 
 ```plaintext
-DOCSIFY-TEMPLATE/
+./docs/
 ├── assets/
 │   ├── copycode.js      # Enables code snippet copying
 │   ├── docsify.js       # Core Docsify configuration
@@ -26,12 +26,14 @@ DOCSIFY-TEMPLATE/
 │   ├── index.css        # Styling for your Docsify site
 │   ├── search.js        # Adds search functionality
 ├── _footer.md           # Defines the document footer
+├── .nojekyll            # Tells GitHub to bypass Jekyll
+├── CNAME                # Adds custom domain to my pages site (replace or delete)
 ├── cw_rocks.png         # Logo (replace with your own)
 ├── favicon.ico          # Favicon (replace with your own)
 ├── index.html           # Main entry point for the Docsify site
 ├── LICENSE              # MIT license file
 ├── makefile             # Includes a command to run a local preview
-└── README.md            # Project documentation (this file)
+└── README.md            # Project documentation
 ```
 
 ## Usage
