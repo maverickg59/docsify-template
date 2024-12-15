@@ -41,7 +41,7 @@ A simple template to help bootstrap a Docsify project as quickly as possible, co
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/docsify-template.git
+git clone https://github.com/maverickg59/docsify-template.git
 cd docsify-template
 ```
 
