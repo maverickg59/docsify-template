@@ -79,13 +79,13 @@ python3 -m http.server 3005
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements.
+Contributions are welcome! Feel free to submit a pull request or open an issue on [GitHub](https://github.com/maverickg59/docsify-template).
 
 ---
 
