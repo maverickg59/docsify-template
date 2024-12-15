@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="./assets/index.css" />
   </head>
   <body>
-    <div id="app"></div>
     <script>
       window.$docsify = {
         name: "docsify-template",
@@ -26,8 +25,6 @@
         depth: 4,
         hideOtherSidebarContent: false,
       };
-    </script>
-    <script>
       document.addEventListener("footerLoaded", () => {
         const span = document.getElementById("date");
         if (span) {
@@ -35,6 +32,7 @@
         }
       });
     </script>
+    <div id="app"></div>
     <!-- Docsify v4 -->
     <script src="./assets/docsify.js"></script>
     <!-- Docsify Search Plugin -->
