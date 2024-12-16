@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/index.css" />
   </head>
   <body>
+    <div id="app"></div>
     <script>
       window.$docsify = {
         name: "docsify-template",
@@ -24,6 +25,11 @@
         noData: "No Results!",
         depth: 4,
         hideOtherSidebarContent: false,
+        repo: "https://github.com/maverickg59/docsify-template",
+        corner: {
+          icon: "github",
+          background: "#9baee4",
+        },
       };
       document.addEventListener("footerLoaded", () => {
         const span = document.getElementById("date");
@@ -32,9 +38,10 @@
         }
       });
     </script>
-    <div id="app"></div>
     <!-- Docsify v4 -->
     <script src="./assets/docsify.js"></script>
+    <!-- docsify-corner -->
+    <script src="./assets/corner.js"></script>
     <!-- Docsify Search Plugin -->
     <script src="./assets/search.js"></script>
     <!-- Docsify Copy Code Plugin v3 -->
