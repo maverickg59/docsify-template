@@ -1,6 +1,6 @@
 # docsify-template
 
-<div style="display:flex; align-items: center;">
+<div style="display: flex; align-items: center;">
   <a href="https://docsify.js.org/#/">
     <img
       style="height: auto; width: 60px;"
