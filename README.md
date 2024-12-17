@@ -4,7 +4,7 @@
   <a href="https://docsify.js.org/#/">
     <img
       style="height: auto; width: 60px;"
-      src="./assets/icon.svg"
+      src="./docs/assets/icon.svg"
     >
   </a>
   <span style="margin-left: 10px; font-size: 20px;">
